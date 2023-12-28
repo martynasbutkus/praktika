@@ -1,0 +1,17 @@
+.image{
+    height: 270px;
+    width: 320px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(70, 5, 95, 0.877);
+    color: white;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.image h1{
+    padding-top: 10px;
+}

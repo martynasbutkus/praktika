@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Permanent+Marker&display=swap');
+
+header{
+    background-image: url(https://theplanetsworld.com/travel-tips1/best-photos-of-year-22-destinations-on-5-continents-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(108, 0, 117);
+    height: 350px;
+    font-family: 'Permanent Marker';
+    font-weight: 900;
+}
+header h1{
+    padding-bottom: 15px;
+    font-size: 45px;
+    letter-spacing: 7px;
+    text-shadow: 4px 4px 0px #000;
+}
+header h3{
+    font-size: 35px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    text-shadow: 
+    -4px 0 0px #000;
+    
+}
+header button{
+    margin-top: 20px;
+    height: 75px;
+    width: 150px;
+    background: rgba(148, 73, 142, 0.664);
+    border: none;
+    border-radius: 15px;
+    font-size: 1.7em;
+    color: rgba(0, 0, 0, 0.76);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

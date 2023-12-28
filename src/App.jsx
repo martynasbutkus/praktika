@@ -1,14 +1,23 @@
 import './App.css'
-import Hero from './components/Hero/Hero'
+import Portfolio from './components/Portfolio/Portfolio'
+import Header from './components/Header/Header'
+import Images from './components/Images/Images'
 
 function App() {
-
   return (
     <>
-      <Hero title={'Hero'} subtitle={'Info hero'} color={'blue'} />
-      <Hero title={'About'} subtitle={'Info about'} color={'red'} />
-      <Hero title={'Contacts'} subtitle={'Info contacts'} color={'blue'} />
-      <Hero title={'Faq'} subtitle={'Info faq'} color={'red'} />
+    <Header title={'Title'} about={'Some about text'} about2={'in two lines'} button={'Button'}/>
+    <main className='main'>
+    <Portfolio portfolio={'Portfolio'} text={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci ad molestiae eius quia? Est dignissimos nihil sint alias, commodi numquam veritatis ipsa, fugiat voluptas nobis aspernatur quas eaque exercitationem!'}/>
+    <section className='imagesDiv'>
+      <Images imagesrc={"https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg"} text={'Fotografas'}/>
+      <Images imagesrc={"https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg"} text={'Fotografas'}/>
+      <Images imagesrc={"https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg"} text={'Fotografas'}/>
+      <Images imagesrc={"https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg"} text={'Fotografas'}/>
+      <Images imagesrc={"https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg"} text={'Fotografas'}/>
+      <Images imagesrc={"https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg"} text={'Fotografas'}/>
+    </section>
+    </main>
     </>
   )
 }
