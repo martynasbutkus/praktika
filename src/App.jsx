@@ -9,7 +9,7 @@ const imagesInfo = [
   {imagessrc: "https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg" , text: "Fotografas"},
   {imagessrc: "https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg" , text: "Fotografas"},
   {imagessrc: "https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg" , text: "Fotografas"},
-  {imagessrc: "https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg" , text: "Fotografas"}
+  {imagessrc: "https://vilniausgalerija.lt/wp-content/uploads/2020/06/marco-xu-ToUPBCO62Lw-unsplash.jpg" , text: "Fotografaas"}
 ]
 
 function App() {
